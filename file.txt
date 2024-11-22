@@ -1,0 +1,15 @@
+In this short essay, I'll explain how I developed the SnapStudy Chrome extension, a tool that enhances productivity for users who frequently take screenshots while watching YouTube videos. The extension streamlines the screenshot process by automating it, reducing the friction of manually capturing and saving images.
+
+Step-by-Step Process:
+1.Problem Definition: Users often find it tedious to pause a video, take a screenshot, and then save or organize it manually. The challenge was to automate this process, allowing users to focus entirely on the content without interruption.
+
+2.Technology Stack: The extension was built using HTML, CSS, and JavaScript. By leveraging JavaScript’s power in browser automation, I was able to create a smooth experience for the user, making it possible to capture screenshots using keyboard shortcuts. Additionally, cross-platform compatibility was ensured for both Mac and Windows users.
+
+3.Implementation:
+    .I utilized JavaScript's browser APIs to capture and save screenshots of the video content.
+    .A combination of HTML and CSS was used to design a simple, clean user interface for interacting with the extension settings.
+    .I implemented cross-platform functionality using browser event listeners, allowing for seamless screenshot captures without interfering with video playback.
+
+4.Challenges and Solutions: One of the major challenges was ensuring smooth performance without interrupting the video. This was handled by optimizing the code to handle screenshots efficiently in the background without causing noticeable delays in video playback.
+
+5.Outcome: The final product resulted in a highly productive tool that automated a repetitive task, saving users time and effort. It’s available as a Chrome extension on the Web Store and has been well-received by users for its simplicity and effectiveness.
